@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+
+.App {
+  font-family: sans-serif;
+
+  text-align: center;
+}
+#title {
+  background-color: blue;
+  border-radius: 0.5rem;
+}
+span {
+  display: inline-block;
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 1rem auto;
+  padding: 2rem;
+}
+button {
+  width: 5rem;
+  height: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+h1 {
+  font-family: "Nabla", cursive;
+}
+input {
+  display: block;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 0.2rem;
+  border: 2px solid grey;
+}
+li :nth-child(2n + 1) {
+  background-color: grey;
+}
+.Output {
+  color: red;
+}
